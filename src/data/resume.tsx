@@ -120,7 +120,7 @@ export const DATA = {
   projects: [
     {
       title: "TechTools",
-      dates: "August 2024 - Now",
+      dates: "July 2024 - September 2024",
       active: true,
       description:
         "Innovative web application providing integrated solutions for remote IT support and efficient management of support requests. Designed to optimize IT service operations by improving responsiveness and intervention tracking.",
@@ -132,7 +132,6 @@ export const DATA = {
         "React",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
       ],
       links: [
         {
@@ -142,6 +141,22 @@ export const DATA = {
         },
       ],
       image: "/TechTools.png",
+    },
+    {
+      title: "EduSphere",
+      dates: "September 2024 - September 2024",
+      active: true,
+      description:
+        "EduSphere is a fictive E-Commerce courses plateform made for a school project. Its a simple php E-Commerce, i learn a lot of basics php in this project",
+      technologies: ["PHP", "Javascript", "TailwindCSS"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Bourdon94m/EduSphere",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/EduSphere.png",
     },
   ],
 } as const;
