@@ -158,5 +158,20 @@ export const DATA = {
       ],
       image: "/EduSphere.png",
     },
+    {
+      title: "LinkLite",
+      dates: "November 2024 - November 2024",
+      active: true,
+      description: "Small URL Shortener made for understand the concept.",
+      technologies: ["Django", "TailwindCSS", "Sqlite"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Bourdon94m/LinkLite",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/LinkLite.png",
+    },
   ],
 } as const;
