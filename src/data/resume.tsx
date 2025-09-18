@@ -190,6 +190,13 @@ export const DATA = {
       active: true,
       description: "Mobile application for tracking his gym sessions",
       technologies: ["Flutter"],
+      links: [
+        {
+          type: "Source",
+          href: "",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
 
       image: "",
     },
