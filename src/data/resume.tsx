@@ -25,15 +25,11 @@ export const DATA = {
 
   avatarUrl: "/coffee.jpg",
   skills: [
-    "React",
+    "C",
+    "C++",
     "Python",
-    "Postgres",
-    "TailwindCSS",
-    "Docker",
-    "Django",
-    "Postman",
-    "Nginx",
-    "Gunicorn",
+    "JS",
+    "Php"
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
@@ -172,6 +168,30 @@ export const DATA = {
         },
       ],
       image: "/LinkLite.png",
+    },
+    {
+      title: "ReverseEdge",
+      dates: "January 2025 - February 2025",
+      active: true,
+      description: "POC of creating a educational purposes only internal 'cheat' on the game AssaulCube ",
+      technologies: ["Cpp", "ImGui", "C", "Memory manipulation"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Bourdon94m/ReverseEdge",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/POC_AC_cheat.png",
+    },
+    {
+      title: "Dominate - Gym Tracker",
+      dates: "August 2025 - Now",
+      active: true,
+      description: "Mobile application for tracking his gym sessions",
+      technologies: ["Flutter"],
+
+      image: "",
     },
   ],
 } as const;
